@@ -334,22 +334,23 @@
                  <!--===== Contact Form =====-->
               <div class="row">
                   <div class="contact-form">
-                      <form action="">
+                      <form action="https://api.web3forms.com/submit" method="POST">
                           <div class="row">
+                            <input type="hidden" name="access_key" value="6db10f91-0323-4f6b-9f47-ea1fddddc721">
                               <div class="w-50">
                                   <div class="input-group">
-                                      <input type="text" placeholder="Name" class="input-control">
+                                      <input type="text" name="first_name" placeholder="Name" class="input-control">
                                   </div>
                                   <div class="input-group">
-                                    <input type="email" placeholder="Email" class="input-control">
+                                    <input type="email" name="email" placeholder="Email" class="input-control">
                                 </div>
                                 <div class="input-group">
-                                    <input type="text" placeholder="Subject" class="input-control">
+                                    <input type="text" name="subject" placeholder="Subject" class="input-control">
                                 </div>
                               </div>
                               <div class="w-50">
                                   <div class="input-group">
-                                      <textarea name="" class="input-control" placeholder="Message" id="" cols="30" rows="10"></textarea>
+                                      <textarea name="message" class="input-control" placeholder="Message" id="" cols="30" rows="10"></textarea>
                                   </div>
                               </div>
                           </div>
