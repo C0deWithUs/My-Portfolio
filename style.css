@@ -920,7 +920,9 @@ footer .copyright-text
 {
     .header-social
     {
-        display: none;
+        display: flex;
+        top: 81%;
+        left: 30%;
     }
 }
 @media(max-width: 991px)
@@ -966,8 +968,9 @@ footer .copyright-text
     }
     .header-social
     {
-        display: block;
-        left: 90%;
+        display: flex;
+        left: 75%;
+        top: 10%;
     }
     .header-hero-shape
     {
@@ -1012,7 +1015,8 @@ footer .copyright-text
 {
     .header-social
     {
-        left: 85%;
+        left: 50%;
+        display: flex;
     }
     .portfolio .portfolio-item,
     .contact-section .contact-item,
